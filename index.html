@@ -2,39 +2,29 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
-    <label for="author">Author:</label>
-    <input type="text" id="author" name="author">
+  <table class="display">
+
+  </table>
+  <button class="new-book-button">New Book</button>
+  <form class="new-book-form" style="display: none;">
+    Title:<input type="text" class="input-title">
     <br>
-    <label for="title">Title:</label>
-    <input type="text" id="title" name="title">
+    Author:<input type="text" class="input-author">
     <br>
-    <label for="pages">Pages:</label>
-    <input type="text" id="pages" name="pages">
+    Pages:<input type="text" class="input-pages">
     <br>
-    <label for="read">Read:</label>
-    <input type="checkbox" id="read" name="read">
+    Read:<input type="checkbox" class="input-read">
     <br>
-    <button id="btn">submit</button>
-    <table id="library">
-        <thead>
-            <tr>
-                <th scope="" col">Author</th>
-                <th scope="" col">Title</th>
-                <th scope="" col">Pages</th>
-                <th scope="" col">Read</th>
-                <th scope="" col">ID</th>
-            </tr>
-        </thead>
-        
-    </table>
+    <button class="submit-button">submit</button>
+  </form>
 </body>
 
 </html>
